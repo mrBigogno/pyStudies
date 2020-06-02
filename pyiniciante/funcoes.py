@@ -14,4 +14,10 @@ def print_lyrics():
 
 print_lyrics()
 
+def print_twice(bruce: str):
+    print(bruce)
+    print(bruce)
 
+name: str = "Gustavo"
+
+print_twice(name)
